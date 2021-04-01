@@ -1,7 +1,7 @@
 import { Component, OnInit, Input, EventEmitter, Output } from '@angular/core';
-import { HttpClientService } from '../../../service/http-client.service';
 import { Router } from '@angular/router';
 import { User } from 'src/app/model/User';
+import { HttpClientService } from 'src/app/service/http-client.service';
 
 
 @Component({
