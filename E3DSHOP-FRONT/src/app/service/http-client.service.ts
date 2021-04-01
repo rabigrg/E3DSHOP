@@ -15,7 +15,7 @@ export class HttpClientService {
 
 getUsers()
 {
-  return this.httpClient.get<User[]>('http://localhost:8080/users/get');
+  return this.httpClient.get<User[]>('http://localhost:8083/users/get');
 }
 
 }
